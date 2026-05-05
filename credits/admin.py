@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import Credit  # Моделиңиздин аты башка болсо, ошону жазыңыз
 
-# Register your models here.
+admin.site.register(Credit)
